@@ -38,7 +38,6 @@ CPPFLAGS += -I$(COMMON_DIR)/inc          \
             -I$(LINUX_SDK_DIR)/pthread
 
 CXXFLAGS += $(ENCLAVE_CXXFLAGS) \
-            -Werror         \
             -fno-exceptions \
             -fno-rtti
 
